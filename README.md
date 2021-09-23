@@ -2,11 +2,10 @@
 
 ## Explicacion:
 
-### Primero definimos una funcion dec2bin. Convierte un número decimal positivo a binario usando un 
-determinado número de bits.
-El binario resultante es un string e.g. "101"
-Se usa la función bin() que transforma e.g. 3 en "0b11".
-En esta función se quita el "0b" para dejar el "11"
+### Primero definimos una funcion dec2bin. Convierte un número decimal positivo a binario usando un determinado número de bits.
+### El binario resultante es un string e.g. "101"
+### Se usa la función bin() que transforma e.g. 3 en "0b11".
+### En esta función se quita el "0b" para dejar el "11"
 
 '''def dec2bin(numero_decimal, numero_bits):
     numero_binario = bin(numero_decimal)
@@ -22,11 +21,11 @@ En esta función se quita el "0b" para dejar el "11"
     return numero_binario
 
 ### Despues creamos el codigo principal o Main del programa:
-#### Pide al usuario el número a convertir y el número de bits 
-#### Como el resultado de input es de tipo string, se convierte a entero usando
-#### se llama a la función dec2bin() para hacer la conversión
-#### Muestra por pantalla el resultado.
-#### Para imprimir un entero es necesario convertirlo a string con str()
+* Pide al usuario el número a convertir y el número de bits 
+* Como el resultado de input es de tipo string, se convierte a entero usando
+* se llama a la función dec2bin() para hacer la conversión
+* Muestra por pantalla el resultado.
+* Para imprimir un entero es necesario convertirlo a string con str()
 
 '''if __name__ == "__main__":
     # Pide al usuario el número a convertir y el número de bits 
